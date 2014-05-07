@@ -9,7 +9,7 @@ png_path = File.join(files_path,"rover.png")
 
 
 10.times do |x|
-	# Change the default printer randomly
+  # Change the default printer randomly
   `lpoptions -d SMB"#{rand(0..9)}"`
   # Needs a second or so to actually take effect
   sleep rand(1..3)
