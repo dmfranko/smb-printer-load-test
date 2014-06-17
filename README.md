@@ -5,7 +5,7 @@ Load test an SMB printer.
 
 ## Windows
 
-At current the windows script will require you to run this across multiple machines.  Windows doesn't allow you to setup more than one SMB printer.
+At current the windows script will require you to run this across multiple machines.  Windows doesn't allow you to setup more than one SMB printer.  There are two options for this as well.  One using Ruby and another using vbscript.  The vbscript version allows you to run it in Windows without having to install anything extra.  You'll still need to setup a printer and set the default correctly and manually.  This script is being driven from Jmeter.
 
 ## Mac
 
